@@ -307,7 +307,7 @@ main{
     background-color: white;
     color: black;
 }
-input{
+.donate-input{
     width: 70%;
     border: none;
     padding: 10px 15px;
@@ -345,7 +345,23 @@ input{
     font-size: 16px;
     color: gray;
 }
+input{
+    border: none;
+    padding: 10px 40px;
+    border-radius: 5px 0  0 5px;
+    margin-left:250px;
 
+}
+.subscribe-btn{
+    background-color:rgb(2, 119, 80) ;
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 0 5px 5px 0;
+    margin-right: 20%;
+    
+}
 
 
 /* style footer section */
