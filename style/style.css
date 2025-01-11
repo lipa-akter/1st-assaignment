@@ -1,3 +1,15 @@
+.fira-sans-regular{
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+body{
+     background-color:hsl(0, 22%, 96%) ;
+     margin: 0px auto;
+}
+
+/* navebar */
+
 .navebar{
     display: flex;
     justify-content: space-around;
@@ -6,6 +18,7 @@
 }
 .logo-text{
     font-weight: bold;
+    font-size: 32px;
 }
 .nav-btn{
     padding: 10px 15px;
@@ -20,14 +33,17 @@
     color: white;
     border: none;
 }
+
+/* hero section */
+
 .banner-container{
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: rgb(199, 241, 227);
-    width: 650px;
-    height: 60vh;
-    margin: auto;
+    height: 70vh;
+    width:85%;
+    margin: 0 auto;
     border-radius: 10px;
     padding: 10px;
 }
@@ -37,6 +53,7 @@
 .banner-text{
     color:rgb(129, 129, 129);
     padding-top: 10px;
+    font-size: 24px;
 }
 .banner-btn{
     background-color: rgb(13, 129, 90);
@@ -51,6 +68,118 @@
     background:white;
     color: black;
 }
+/* main section */
 main{
-    margin: auto;
+    width:85%;
+    margin: 60px auto;
+    justify-content: center;
+    padding: 20px;
+   
+}
+
+/* pillars of Bangladesh */
+.pillars-box{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    gap: 10px;
+}
+.box-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.box-description{
+    font-size: 16px;
+    color: grey;
+}
+.box1{
+    background-color: white;
+    border: 1px solid rgb(214, 210, 210);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* The vision of Future */
+
+.future-content{
+    padding-top: 100px;
+    font-weight:bold ;
+}
+.card-description{
+    font-size: 16px;
+    color: gray;
+}
+.future-card{
+    display: flex;
+    justify-content: space-around;
+   padding-top: 20px;
+    gap: 10px;
+
+}
+
+/* card-section-1 */
+
+.card-1{
+    background-color: rgb(212, 218, 243);
+    border-radius: 10px;
+    padding: 20px;
+}
+.card-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.card-description{
+    font-size: 16px;
+}
+
+.card-btn-1{
+    background-color: rgb(96, 128, 255);
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+}
+
+.card-btn-1:hover{
+    background-color: white;
+    color: black;
+}
+/* card-section-2 */
+.card-2{
+    background-color: rgb(195, 250, 232);
+    border-radius: 10px;
+    padding: 20px;
+}
+.card-btn-2{
+    background-color: rgb(38, 248, 178);
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+}
+
+.card-btn-2:hover{
+    background-color: white;
+    color: black;
+}
+/* card-section-3 */
+.card-3{
+    background-color: rgb(247, 236, 182);
+    border-radius: 10px;
+    padding: 20px;
+}
+.card-btn-3{
+
+}
+.card-btn-3{
+    background-color: rgb(228, 190, 3);
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+}
+
+.card-btn-3:hover{
+    background-color: white;
+    color: black;
 }
