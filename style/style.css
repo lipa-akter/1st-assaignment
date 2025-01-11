@@ -231,9 +231,11 @@ main{
     font-size: 16px;
     color: gray;
 }
+
+/* resent news imge */
 .news-img{
     width: 350px;
-    border-radius: 10px;
+    border-radius: 20px;
     
    
 }
@@ -246,6 +248,8 @@ main{
     font-size: 14px;
     color: gray;
 }
+/* time and date */
+
 .timee{
     padding-left: 20px;
     font-size: 16px;
@@ -253,6 +257,8 @@ main{
 .date{
     font-size: 16px;
 }
+/* news btn */
+
 .news-btn{
     background-color: rgb(2, 119, 80);
     border-radius: 5px;
@@ -260,3 +266,101 @@ main{
     padding: 10px 15px;
     color: white;
 }
+
+/* Donate Today style */
+.donate-title{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 100px;
+}
+.donate-discription{
+    text-align: center;
+    font-size: 16px;
+    color: gray;
+}
+.donate-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    
+}
+.container-1{
+    background-color: white;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 20px 40px;
+    border-radius: 5px;
+}
+.container-1:hover{
+    background-color: rgb(127, 240, 202);
+    color: white;
+}
+.container-2{
+    background-color: rgb(123, 241, 202);
+    font-size: 22px;
+    font-weight: bold;
+    padding: 20px 30px;
+    border-radius: 5px;
+    color: white;
+}
+.container-2:hover{
+    background-color: white;
+    color: black;
+}
+input{
+    width: 70%;
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    margin-left: 125px;
+}
+.donate-btn{
+    background-color: #027750;
+    color: white;
+    padding: 10px 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 50%;
+}
+.donate-btn:hover{
+    background-color: white;
+    color: black;
+}
+/* Subscribe Newsletter style */
+.subscribe-section{
+    background-color: rgb(159, 248, 218);
+    margin-top: 100px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.subscribe-title{
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+}
+.subscribe-description{
+    text-align: center;
+    font-size: 16px;
+    color: gray;
+}
+
+
+
+/* style footer section */
+.footer-section{
+    padding: 20px 30px;
+}
+.footer-content{
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+.footer-icon{
+    text-align: center;
+    padding: 20px;
+    gap: 10px;
+}
+
