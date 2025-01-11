@@ -12,8 +12,9 @@ body{
 
 .navebar{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding: 0 70px;
 
 }
 .logo-text{
@@ -73,7 +74,7 @@ main{
     width:85%;
     margin: 60px auto;
     justify-content: center;
-    padding: 20px;
+    padding: 10px;
    
 }
 
@@ -95,7 +96,7 @@ main{
 .box1{
     background-color: white;
     border: 1px solid rgb(214, 210, 210);
-    padding: 10px;
+    padding: 20px;
     border-radius: 10px;
 }
 
@@ -120,9 +121,9 @@ main{
 /* card-section-1 */
 
 .card-1{
-    background-color: rgb(212, 218, 243);
+    background-color: rgb(221, 226, 243);
     border-radius: 10px;
-    padding: 20px;
+    padding: 30px 20px;
 }
 .card-title{
     font-size: 20px;
@@ -136,7 +137,8 @@ main{
     background-color: rgb(96, 128, 255);
     border: none;
     border-radius: 5px;
-    padding: 5px 10px;
+    padding: 10px 15px;
+    font-weight: bold;
     color: white;
 }
 
@@ -146,15 +148,16 @@ main{
 }
 /* card-section-2 */
 .card-2{
-    background-color: rgb(195, 250, 232);
+    background-color: rgb(198, 252, 234);
     border-radius: 10px;
-    padding: 20px;
+    padding: 30px 20px;
 }
 .card-btn-2{
-    background-color: rgb(38, 248, 178);
+    background-color: rgb(0, 204, 136);
     border: none;
     border-radius: 5px;
-    padding: 5px 10px;
+    padding: 10px 15px;
+    font-weight: bold;
     color: white;
 }
 
@@ -164,9 +167,9 @@ main{
 }
 /* card-section-3 */
 .card-3{
-    background-color: rgb(247, 236, 182);
+    background-color: rgb(248, 239, 192);
     border-radius: 10px;
-    padding: 20px;
+    padding: 30px 20px;
 }
 .card-btn-3{
 
@@ -175,11 +178,85 @@ main{
     background-color: rgb(228, 190, 3);
     border: none;
     border-radius: 5px;
-    padding: 5px 10px;
+    padding: 10px 15px;
+    font-weight: bold;
     color: white;
 }
 
 .card-btn-3:hover{
     background-color: white;
     color: black;
+}
+
+/* others section */
+
+.others{
+    padding-top: 100px;
+}
+.container{
+     background-color: white;
+     background-image: url(../assets/quote-bg.png);
+     background-repeat: no-repeat;
+     background-position: top left ;
+     border-radius: 10px;
+     border: 1px solid rgb(221, 216, 216);
+     padding: 20px;
+}
+.others-description{
+    font-size: 16px;
+    color: gray;
+}
+.others-title{
+    font-size:20 ;
+    font-weight: bold;
+}
+/* resent news style */
+.news-content{
+    
+    font-weight: bold;
+    padding-top: 100px;
+    
+}
+.resent-news{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    align-items: center;
+    gap:20px;
+    
+}
+.news-descriptions{
+    font-size: 16px;
+    color: gray;
+}
+.news-img{
+    width: 350px;
+    border-radius: 10px;
+    
+   
+}
+.news-title{
+    font-size: 22px;
+    font-weight: bold;
+  
+}
+.news-description{
+    font-size: 14px;
+    color: gray;
+}
+.timee{
+    padding-left: 20px;
+    font-size: 16px;
+}
+.date{
+    font-size: 16px;
+}
+.news-btn{
+    background-color: rgb(2, 119, 80);
+    border-radius: 5px;
+    border: none;
+    padding: 10px 15px;
+    color: white;
 }
